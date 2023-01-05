@@ -84,4 +84,3 @@ decoder = GreedyCTCDecoder(labels = bundle.get_labels())
 transcript = decoder(emission[0])
 
 print(transcript)
-''''''
